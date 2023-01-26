@@ -6,10 +6,11 @@
 </head>
 <body>
 
-<form action="numbers1">
-    <button>link 1</button>
-</form>
+<a th:href="@{/numbers(n=10)}">n=10</a>
 
+<a th:href="@{/sum-numbers(n=10)}">n=10</a>
+
+<a th:href="@{/words(word='baqt', n=5)}">baqt, 5</a>
 
 </body>
 </html>
